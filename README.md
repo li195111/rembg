@@ -38,7 +38,7 @@ Rembg is a tool to remove images background. That is it.
 
 ### Requirements
 
-* python 3.8 or newer
+* python 3.7 or newer
 
 * torch and torchvision stable version (https://pytorch.org)
 
@@ -55,17 +55,12 @@ Language: Python
 CUDA: None
 ```
 
-The install cmd is:
-```
-pip install torch==1.7.1+cpu torchvision==0.8.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
-```
-
 ### Installation
 
 Install it from pypi
 
 ```bash
-pip install rembg
+pip install git+https://github.com/li195111/rembg.git
 ```
 
 ### Usage as a cli
